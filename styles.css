@@ -68,6 +68,10 @@ p.txt {
   font-family: "Montserrat", serif;
   font-style: italic;
 }
+.txt::selection{
+  color: red;
+  cursor: pointer;
+}
 
 /* Style général pour le formulaire */
 .userForm {
